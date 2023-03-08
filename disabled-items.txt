@@ -1,0 +1,58 @@
+ <section class="container-fluid p-0 mt-3">
+        <div class="dark">
+            <div class="cards owl-carousel owl-theme" id="owl-carousel">
+                <div class="item card open expand"
+                    style="background-image: url(https://worldctravel.com/public/uploads/banner/64761674211193.png);background-repeat: no-repeat;">
+                    <a href="/holidays" class="text-decoration-none">
+                        <div class="shadow"></div>
+                        <div class="label">
+                            <h3 class="first-heading text-white ms-3">Adventure awaits</h3>
+                            <div class="info">
+                                <div class="title text-start text-white">
+                                    Embrace exploration</div>
+
+                                <ion-icon name="arrow-up-outline" class="arrow p-2 text-dark"></ion-icon>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item card about-column-gapd-none d-lg-block"
+                    style="background-image: url(https://worldctravel.com/public/uploads/banner/94601674211314.png);background-repeat: no-repeat;">
+                    <div class="shadow"></div>
+                    <div class="label second-label">
+                        <div class="second-info text-white">
+                            <img class="mb-3" src="https://worldctravel.com/public/assets/web/img/location_icon.png"
+                                alt="">
+                            <h2 class="title text-start fw-bold mb-4">Best of Georgia</h2>
+                            <h4 class="fw-bold">Dynamic Packages</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item card about-column-gapd-none d-lg-block"
+                    style="background-image: url(https://worldctravel.com/public/uploads/banner/86441674211657.png);background-repeat: no-repeat;">
+                    <div class="shadow"></div>
+                    <div class="label second-label">
+                        <div class="second-info text-white">
+                            <img class="mb-3" src="https://worldctravel.com/public/assets/web/img/location_icon.png"
+                                alt="">
+                            <h2 class="title text-start fw-bold mb-4">Mesmerizing Armenia</h2>
+                            <h4 class="fw-bold">Dynamic Packages</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item card about-column-gapd-none d-lg-block"
+                    style="background-image: url(https://worldctravel.com/public/uploads/banner/30221674211772.png);background-repeat: no-repeat;">
+                    <div class="shadow"></div>
+                    <div class="label second-label">
+                        <div class="second-info text-white">
+                            <img class="mb-3" src="https://worldctravel.com/public/assets/web/img/location_icon.png"
+                                alt="">
+                            <h2 class="title text-start fw-bold mb-4">Delighting Azerbaijan</h2>
+                            <h4 class="fw-bold">Dynamic Packages</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
