@@ -56,3 +56,139 @@
             </div>
         </div>
     </section>
+
+    <section id="slideshow" style="margin-bottom: 100px;">
+                            <div class="col-md-11">
+                                <div class="slick-slider packages">
+                                    <!-- card 1 -->
+                                    <div>
+                                        <div class="card">
+                                            <a class="text-decoration-none" href="#" onclick="show_modal('4')">
+                                                <img src="/assets/main.jpg" class="card-img-top p-2" alt="...">
+                                                <button
+                                                    class="location border-0 pe-none d-flex align-items-center text-white fw-bold p-2 pe-3 ms-3 position-relative">
+                                                    <span class="ms-2"> villas</span>
+                                                </button>
+                                                <div class="card-body">
+                                                    <p class="mb-0">6 beautiful villas</p>
+                                                    <h6 class="card-title days black fw-bold mt-1">Lorem ipsum, dolor
+                                                        sit amet consectetur adipisicing elit. Aperiam, repudiandae?
+                                                    </h6>
+                                                </div>
+                                                <a href="#" class="btn btn-primary" onclick="show_modal('5')">Book
+                                                    Now</a>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- card 2 -->
+                                    <div>
+                                        <div class="card">
+                                            <a class="text-decoration-none" href="#" onclick="show_modal('4')">
+                                                <img src="/assets/room.png" class="card-img-top p-2" alt="...">
+                                                <button
+                                                    class="location border-0 pe-none d-flex align-items-center text-white fw-bold p-2 pe-3 ms-3 position-relative">
+                                                    <span class="ms-2"> Room</span>
+                                                </button>
+                                                <div class="card-body">
+                                                    <p class="mb-0">Lorem, ipsum dolor.</p>
+                                                    <h6 class="card-title days black fw-bold mt-1">Lorem ipsum dolor sit
+                                                        amet consectetur adipisicing elit. Laboriosam, nostrum.
+                                                    </h6>
+                                                </div>
+                                                <a href="#" class="btn btn-primary" onclick="show_modal('5')">Book
+                                                    Now</a>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- card 1 -->
+                                    <div>
+                                        <div class="card">
+                                            <a class="text-decoration-none" href="#" onclick="show_modal('4')">
+                                                <img src="/assets/aerial-view.png" class="card-img-top p-2" alt="...">
+                                                <button
+                                                    class="location border-0 pe-none d-flex align-items-center text-white fw-bold p-2 pe-3 ms-3 position-relative">
+                                                    <span class="ms-2"> villas</span>
+                                                </button>
+                                                <div class="card-body">
+                                                    <p class="mb-0">6 beautiful villas</p>
+                                                    <h6 class="card-title days black fw-bold mt-1">Lorem ipsum dolor
+                                                        sit, amet consectetur adipisicing.
+                                                    </h6>
+                                                </div>
+                                                <a href="#" class="btn btn-primary" onclick="show_modal('5')">Book
+                                                    Now</a>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- card 1 -->
+                                    <div>
+                                        <div class="card">
+                                            <a class="text-decoration-none" href="#" onclick="show_modal('4')">
+                                                <img src="/assets/pool.jpg" class="card-img-top p-2" alt="...">
+                                                <button
+                                                    class="location border-0 pe-none d-flex align-items-center text-white fw-bold p-2 pe-3 ms-3 position-relative">
+                                                    <span class="ms-2"> pool</span>
+                                                </button>
+                                                <div class="card-body">
+                                                    <p class="mb-0">a bueatiful pool overlooking the villas</p>
+                                                    <h6 class="card-title days black fw-bold mt-1">Lorem, ipsum dolor.
+                                                    </h6>
+                                                </div>
+                                                <a href="#" class="btn btn-primary" onclick="show_modal('5')">Book
+                                                    Now</a>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- end card -->
+
+                                </div>
+                            </div>
+                        </section>
+
+
+                            <section class="container-fluid p-0 mt-3">
+        <div class="dark" style="height: 650px;">
+            <div class="cards owl-carousel owl-theme owl-loaded owl-drag" id="owl-carousel">
+                <div class="owl-stage-outer" style="height: 570px;">
+                    <div class="owl-stage"
+                        style="transform: translate3d(-1543px, 0px, 0px); transition: all 0.25s ease 0s; width: 3086px;">
+
+                        <!-- card 1 -->
+                        <div class="owl-item cloned" style="width: auto;">
+                            <div class="item card about-column-gapd-none d-lg-block"
+                                style="background-image: url(assets/main.jpg);background-repeat: no-repeat;">
+                                <div class="shadow"></div>
+                                <div class="label second-label">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end card  -->
+                        <div class="owl-item cloned" style="width: auto;">
+                            <div class="item card about-column-gapd-none d-lg-block"
+                                style="background-image: url(assets/main.jpg);background-repeat: no-repeat;">
+                                <div class="shadow"></div>
+                                <div class="label second-label">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item cloned" style="width: auto;">
+                            <div class="item card about-column-gapd-none d-lg-block"
+                                style="background-image: url(assets/main.jpg);background-repeat: no-repeat;">
+                                <div class="shadow"></div>
+                                <div class="label second-label">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span
+                            aria-label="Previous">‹</span></button><button type="button" role="presentation"
+                        class="owl-next"><span aria-label="Next">›</span></button></div>
+                <div class="owl-dots disabled"></div>
+            </div>
+        </div>
+    </section>
