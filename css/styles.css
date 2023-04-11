@@ -357,6 +357,7 @@ body {
 
 .footer-bg {
     background-color: var(--secondary);
+    padding-top: 60px;
 }
 
 .testi-bg {

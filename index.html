@@ -36,10 +36,10 @@
             <ul class="p-0">
                 <li class="list-unstyled pb-3"><a class="text-decoration-none  menu-color active"
                         href="index.html">Home</a></li>
-                <li class="list-unstyled pb-3"><a class="text-decoration-none menu-color  " href="/about.html">About
+                <li class="list-unstyled pb-3"><a class="text-decoration-none menu-color  " href="about.html">About
                         Us</a></li>
                 <li class="list-unstyled pb-3"><a class="text-decoration-none menu-color  "
-                        href="#contact-us">Contact</a></li>
+                        href="contact.html">Contact</a></li>
             </ul>
             <button class="btn btn-primary px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</button>
         </div>
@@ -49,11 +49,11 @@
         <div class="d-none d-lg-block">
             <ul class="d-inline-flex pt-2">
                 <li class="list-unstyled"><a class="text-decoration-none pe-5 menu-color active"
-                        href="https://www.worldctravel.com">Home</a></li>
-                <li class="list-unstyled"><a class="text-decoration-none pe-5 menu-color "
-                        href="https://www.worldctravel.com/about">About Us</a></li>
+                        href="index.html">Home</a></li>
+                <li class="list-unstyled"><a class="text-decoration-none pe-5 menu-color " href="about.html">About
+                        Us</a></li>
                 <li class="list-unstyled"><a class="text-decoration-none pe-4 menu-color "
-                        href="https://www.worldctravel.com/contact">Contact</a></li>
+                        href="contact.html">Contact</a></li>
             </ul>
         </div>
         <button class="btn btn-primary py-2 d-none d-lg-block px-4" data-bs-toggle="modal"
@@ -82,8 +82,7 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content d-flex flex-lg-row">
-                <img class="img-fluid d-none d-md-block"
-                    src="https://worldctravel.com/public/assets/web/img/enquiry-img.jpg" alt="">
+                <img class="img-fluid d-none d-md-block" src="assets/churam.jpg" alt="">
                 <div class="ms-3 w-100">
                     <div class="modal-header">
                         <h4 class="modal-title fw-bold black" id="exampleModalLabel">Book Now</h4>
@@ -106,25 +105,12 @@
                                 <label for="inputPassword5" class="form-label">Phone Number*</label>
                                 <input type="number" name="phone" class="form-control" required>
                             </div>
-                            <!-- <div>
-                                <label for="inputPassword5" class="form-label">Packages</label>
-                                <div>
-                                    <select class="form-select" name="package" id="package"
-                                        aria-label="Default select example">
-                                        <option value="2">Best of Georgia</option>
-                                        <option value="5">Charming Austria</option>
-                                        <option value="4">Highlights of Turkey</option>
-                                        <option value="3">Mesmerizing Armania</option>
-                                    </select>
-                                </div>
-
-                            </div> -->
                             <div>
                                 <label for="inputPassword5" class="form-label">Date</label>
                                 <input class="form-control picker" name="travel_date" type="text" autocomplete="off">
                             </div>
                             <div>
-                                <label for="inputPassword5" class="form-label">remarks or requests*</label>
+                                <label for="inputPassword5" class="form-label">Wheelchair Access*</label>
                                 <input type="Message" name="message" class="form-control">
 
                             </div>
@@ -158,7 +144,6 @@
     <section class=" container mt-0 mt-md-5 mb-5 ">
         <div class="text-center mb-5">
             <div class="videoframe">
-
                 <iframe width="300" height="150" src="https://www.youtube.com/embed/Rg9_vKJZLIg"
                     title="OWN DYNASTY HERITAGE LTD" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -167,62 +152,36 @@
             </div>
         </div>
     </section>
+
+
+
     <!--end:video-->
     <!-- start-carousal -->
     <section class=" container-fluid mt-3 pt-3 mt-md-5 pt-md-5">
                     <div class="row align-items-center">
                         <div class="col-md-4">
                             <div class="text-center text-md-start mb-4 mb-md-0">
-                                <h1 class="fs-2 fw-bold black ms-0 ps-0 ms-md-5 ps-md-4 mb-3 mb-lg-5">About Us.</h1>
-                                <!-- <div class="ms-md-5 mb-5 mb-md-0">
-                        <a class="btn btn-primary px-4 ms-md-4 py-2" href="#slideshow">About Us</a>
-                    </div> -->
+
+                                <div class="ms-md-5 mb-5 mb-md-0">
+                                    <a class="btn btn-primary px-4 ms-md-4 py-2" href=" #" class="btn btn-primary"
+                                        onclick="show_modal('2')">
+                                        Book Now
+                                    </a>
+                                </div>
+
+                                <h1 class="fs-2 fw-bold black ms-0 ps-0 ms-md-5 ps-md-4 mb-3 mb-lg-5">We Provide.
+                                </h1>
+                                <h7 class="card-title days black fw-light mt-0">We provide villa cottages for a peace
+                                    stay in 2 acres land with lush greenery. In our luxuriously furnished and
+                                    elegantly decorated rooms with all amenities which is necessary for a compactable
+                                    and pleasant stay.
+                                </h7>
 
                             </div>
                         </div>
                         <section id="slideshow">
-                            <div class="col-md-8">
+                            <div class="col-md-12">
                                 <div class="slick-slider packages">
-                                    <div>
-                                        <div class="card">
-                                            <a class="text-decoration-none" href="#" onclick="show_modal('2')">
-                                                <img src="https://worldctravel.com/public/uploads/package/44081674212073.png"
-                                                    class="card-img-top p-2" alt="...">
-                                                <button
-                                                    class="location border-0 pe-none d-flex align-items-center text-white fw-bold p-2 pe-3 ms-3 position-relative">
-                                                    <img src="/assets/logo.svg" alt=""><span class="ms-2">
-                                                        Georgia</span>
-                                                </button>
-                                                <div class="card-body">
-                                                    <h5 class="card-title black fw-bold mt-3 mb-4">Best of Georgia</h5>
-                                                    <p class="mb-0">Duration</p>
-                                                    <h6 class="card-title days black fw-bold mt-1">Dynamic Packages</h6>
-                                                </div>
-                                                <a href="#" class="btn btn-primary" onclick="show_modal('2')">Book
-                                                    Now</a>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="card">
-                                            <a class="text-decoration-none" href="#" onclick="show_modal('5')">
-                                                <img src="https://worldctravel.com/public/uploads/package/94641674212338.png"
-                                                    class="card-img-top p-2" alt="...">
-                                                <button
-                                                    class="location border-0 pe-none d-flex align-items-center text-white fw-bold p-2 pe-3 ms-3 position-relative">
-                                                    <img src="https://worldctravel.com/public/assets/web/img/location_icon.png"
-                                                        alt=""><span class="ms-2"> Austria</span>
-                                                </button>
-                                                <div class="card-body">
-                                                    <h5 class="card-title black fw-bold mt-3 mb-4">Charming Austria</h5>
-                                                    <p class="mb-0">Duration</p>
-                                                    <h6 class="card-title days black fw-bold mt-1">Dynamic Packages</h6>
-                                                </div>
-                                                <a href="#" class="btn btn-primary" onclick="show_modal('5')">Book
-                                                    Now</a>
-                                            </a>
-                                        </div>
-                                    </div>
                                     <div>
                                         <div class="card">
                                             <a class="text-decoration-none" href="#" onclick="show_modal('4')">
@@ -232,37 +191,19 @@
                                                     <span class="ms-2"> villas</span>
                                                 </button>
                                                 <div class="card-body">
-                                                    <h5 class="card-title black fw-bold mt-3 mb-4">Highlights of Turkey
-                                                    </h5>
-                                                    <!-- <p class="mb-0">Duration</p> -->
-                                                    <h6 class="card-title days black fw-bold mt-1">Dynamic Packages</h6>
+                                                    <p class="mb-0">6 beautiful villas</p>
+                                                    <h6 class="card-title days black fw-bold mt-1">that'll
+                                                    </h6>
                                                 </div>
                                                 <a href="#" class="btn btn-primary" onclick="show_modal('5')">Book
                                                     Now</a>
                                             </a>
                                         </div>
                                     </div>
-                                    <div>
-                                        <div class="card">
-                                            <a class="text-decoration-none" href="#" onclick="show_modal('3')">
-                                                <img src="https://worldctravel.com/public/uploads/package/85701674212187.png"
-                                                    class="card-img-top p-2" alt="...">
-                                                <button
-                                                    class="location border-0 pe-none d-flex align-items-center text-white fw-bold p-2 pe-3 ms-3 position-relative">
-                                                    <img src="https://worldctravel.com/public/assets/web/img/location_icon.png"
-                                                        alt=""><span class="ms-2"> Armania</span>
-                                                </button>
-                                                <div class="card-body">
-                                                    <h5 class="card-title black fw-bold mt-3 mb-4">Mesmerizing Armania
-                                                    </h5>
-                                                    <p class="mb-0">Duration</p>
-                                                    <h6 class="card-title days black fw-bold mt-1">Dynamic Packages</h6>
-                                                </div>
-                                                <a href="#" class="btn btn-primary" onclick="show_modal('3')">Book
-                                                    Now</a>
-                                            </a>
-                                        </div>
-                                    </div>
+
+
+
+
                                 </div>
                             </div>
                         </section>
@@ -303,153 +244,6 @@
 
 
 
-    <!--begin:testi -->
-    <section class="container-fluid testi-bg">
-        <div class="container mb-5  pb-0 pb-md-4 text-center text-md-start">
-            <h1 class="fw-bold black">What our customer <br> say about us</h1>
-        </div>
-        <div class="testi-slider">
-            <div>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <!-- <img src="img/client.png" alt="" style="width:50px; height:50px;"> -->
-                            <div class="ms-3">
-                                <h5 class="card-title black fw-bold ">Davood</h5>
-
-                            </div>
-                            <img class="w-25 ms-3 d-none d-md-block"
-                                src="https://worldctravel.com/public/assets/web/img/quote.png" alt="">
-                        </div>
-                        <p class="card-text mt-3">“ It was an incredible long term memory trip and I would highly
-                            recommend you to anyone!! “</p>
-                        <img class="mt-4" src="https://worldctravel.com/public/assets/web/img/ratig.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <!-- <img src="img/client.png" alt="" style="width:50px; height:50px;"> -->
-                            <div class="ms-3">
-                                <h5 class="card-title black fw-bold ">Jahana Nasrath</h5>
-
-                            </div>
-                            <img class="w-25 ms-3 d-none d-md-block"
-                                src="https://worldctravel.com/public/assets/web/img/quote.png" alt="">
-                        </div>
-                        <p class="card-text mt-3">“ We just finished our trip through Georgia. Is was a great
-                            experience, you can proud of your country. Your services were 10 out of 10. Also our guide
-                            in Georgia , Nino, was 10 out of 10.
-                            Many thanks again “</p>
-                        <img class="mt-4" src="https://worldctravel.com/public/assets/web/img/ratig.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <!-- <img src="img/client.png" alt="" style="width:50px; height:50px;"> -->
-                            <div class="ms-3">
-                                <h5 class="card-title black fw-bold ">Shibil Samad</h5>
-
-                            </div>
-                            <img class="w-25 ms-3 d-none d-md-block"
-                                src="https://worldctravel.com/public/assets/web/img/quote.png" alt="">
-                        </div>
-                        <p class="card-text mt-3">“ We sincerely thank you for making us aware of the issue so that we
-                            can ensure that it won&#039;t happen to other travelers in the future. The tour was exactly
-                            what we wanted and everything went smoothly without a single problem. The tour was wonderful
-                            from beginning to end and excellent value for money. “</p>
-                        <img class="mt-4" src="https://worldctravel.com/public/assets/web/img/ratig.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <!-- <img src="img/client.png" alt="" style="width:50px; height:50px;"> -->
-                            <div class="ms-3">
-                                <h5 class="card-title black fw-bold ">Shibil Samad</h5>
-
-                            </div>
-                            <img class="w-25 ms-3 d-none d-md-block"
-                                src="https://worldctravel.com/public/assets/web/img/quote.png" alt="">
-                        </div>
-                        <p class="card-text mt-3">“ We sincerely thank you for making us aware of the issue so that we
-                            can ensure that it won&#039;t happen to other travelers in the future. The tour was exactly
-                            what we wanted and everything went smoothly without a single problem. The tour was wonderful
-                            from beginning to end and excellent value for money. “</p>
-                        <img class="mt-4" src="https://worldctravel.com/public/assets/web/img/ratig.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <!-- <img src="img/client.png" alt="" style="width:50px; height:50px;"> -->
-                            <div class="ms-3">
-                                <h5 class="card-title black fw-bold ">Shibil Samad</h5>
-
-                            </div>
-                            <img class="w-25 ms-3 d-none d-md-block"
-                                src="https://worldctravel.com/public/assets/web/img/quote.png" alt="">
-                        </div>
-                        <p class="card-text mt-3">“ We sincerely thank you for making us aware of the issue so that we
-                            can ensure that it won&#039;t happen to other travelers in the future. The tour was exactly
-                            what we wanted and everything went smoothly without a single problem. The tour was wonderful
-                            from beginning to end and excellent value for money. “</p>
-                        <img class="mt-4" src="https://worldctravel.com/public/assets/web/img/ratig.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <!-- <img src="img/client.png" alt="" style="width:50px; height:50px;"> -->
-                            <div class="ms-3">
-                                <h5 class="card-title black fw-bold ">Shibil Samad</h5>
-
-                            </div>
-                            <img class="w-25 ms-3 d-none d-md-block"
-                                src="https://worldctravel.com/public/assets/web/img/quote.png" alt="">
-                        </div>
-                        <p class="card-text mt-3">“ We sincerely thank you for making us aware of the issue so that we
-                            can ensure that it won&#039;t happen to other travelers in the future. The tour was exactly
-                            what we wanted and everything went smoothly without a single problem. The tour was wonderful
-                            from beginning to end and excellent value for money. “</p>
-                        <img class="mt-4" src="https://worldctravel.com/public/assets/web/img/ratig.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <!-- <img src="img/client.png" alt="" style="width:50px; height:50px;"> -->
-                            <div class="ms-3">
-                                <h5 class="card-title black fw-bold ">Shibil Samad</h5>
-
-                            </div>
-                            <img class="w-25 ms-3 d-none d-md-block"
-                                src="https://worldctravel.com/public/assets/web/img/quote.png" alt="">
-                        </div>
-                        <p class="card-text mt-3">“ We sincerely thank you for making us aware of the issue so that we
-                            can ensure that it won&#039;t happen to other travelers in the future. The tour was exactly
-                            what we wanted and everything went smoothly without a single problem. The tour was wonderful
-                            from beginning to end and excellent value for money. “</p>
-                        <img class="mt-4" src="https://worldctravel.com/public/assets/web/img/ratig.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end:testi -->
 
     <script>
         function show_modal(package) {
@@ -474,8 +268,10 @@
                 <div class="col-lg-4 footer first-column">
                     <a href="index.html"> <img class="img-fluid mb-4" src="/assets/logo.svg" height="100" width="100"
                             alt=""></a>
-                    <h6 class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-                        laborum doloremque voluptates, consequatur quo laboriosam corporis incidunt quasi esse quia..
+                    <h6 class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatibus
+                        laborum doloremque voluptates, consequatur quo laboriosam corporis incidunt
+                        quasi esse quia..
                     </h6>
                     <ul class="list-unstyled d-flex mb-4 mb-sm-5">
                         <li><a class="me-3"
@@ -564,7 +360,7 @@
                 }
             }
             ],
-            nextArrow: `<button type="button" class="slick-next"><img src="https://worldctravel.com/public/assets/web/img/next.png" /></button>`
+            nextArrow: `<button type="button" class="slick-next"><img src="" /></button>`
         });
     </script>
     <script>
@@ -604,8 +400,8 @@
                 }
             }
             ],
-            nextArrow: `<button type="button" class="slick-next"><img src="https://worldctravel.com/public/assets/web/img/next.png" /></button>`,
-            prevArrow: `<button type="button" class="slick-prev"><img src="https://worldctravel.com/public/assets/web/img/prev.png" /></button>`
+            nextArrow: `<button type="button" class="slick-next"><img src="/assets/icons/next.png" /></button>`,
+            prevArrow: `<button type="button" class="slick-prev"><img src="/assets/icons/prev.png" /></button>`
         });
 
         $('.slick-next').click(function () {

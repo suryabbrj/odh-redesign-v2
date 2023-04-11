@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style data-styles="">
+        ion-icon {
+            visibility: inherit
+        }
+
+        .hydrated {
+            visibility: inherit
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="icon" href="assets/favicon.jpg">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+        integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>ContactOwnDynasty</title>
+</head>
+
+<body class="overflow-hidden-x">
+    <!-- off canvas toggle -->
+
+    <body class="overflow-hidden-x">
+        <!-- off canvas toggle -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Own Dynasty Heritage Pvt Ltd</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="p-0">
+                    <li class="list-unstyled pb-3"><a class="text-decoration-none  menu-color active"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="list-unstyled pb-3"><a class="text-decoration-none menu-color  " href="about.html">About
+                            Us</a></li>
+                    <li class="list-unstyled pb-3"><a class="text-decoration-none menu-color  "
+                            href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Book
+                    Now</button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between justify-content-lg-around align-items-center pt-4 mx-4">
+            <a href="/"> <img src="/assets/logo.svg" alt="logo"></a>
+            <div class="d-none d-lg-block">
+                <ul class="d-inline-flex pt-2">
+                    <li class="list-unstyled"><a class="text-decoration-none pe-5 menu-color active"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="list-unstyled"><a class="text-decoration-none pe-5 menu-color " href="about.html">About
+                            Us</a></li>
+                    <li class="list-unstyled"><a class="text-decoration-none pe-4 menu-color "
+                            href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-primary py-2 d-none d-lg-block px-4" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Book Now</button>
+            <div class="menu d-md-block d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 172 172">
+                    <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
+                        <g fill-rule="evenodd">
+                            <circle cx="2167" cy="2167" transform="scale(0.03968,0.03968)" r="2100" fill="#0F0D14">
+                            </circle>
+                            <path
+                                d="M49.79469,58.44429h72.41061v11.0699h-72.41061zM49.79469,102.44614h72.41061v11.0699h-72.41061zM49.79469,80.82215h72.41061v11.0699h-72.41061z"
+                                fill="#fefefe"></path>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <!-- start booking feild -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content d-flex flex-lg-row">
+                    <img class="img-fluid d-none d-md-block" src="assets/churam.jpg" alt="">
+                    <div class="ms-3 w-100">
+                        <div class="modal-header">
+                            <h4 class="modal-title fw-bold black" id="exampleModalLabel">Book Now</h4>
+                            <button type="button" class="btn-close btn-close-pop mt-2" data-bs-dismiss="modal"
+                                aria-label="Close"><i class="bi bi-x-circle-fill close-pop"></i></button>
+                        </div>
+                        <form method="post" action="">
+                            <input type="hidden" name="_token" value="kYPcLl8sBKC9x6HimpRpw329u1FGF1JooNkouuI7"> <input
+                                type="hidden" name="category" id="category" value="Package">
+                            <div class="modal-body d-flex gap-5 flex-wrap">
+                                <div class="mb-md-3">
+                                    <label for="inputPassword5" class="form-label">Full Name*</label>
+                                    <input type="text" name="name" class="form-control" required>
+                                </div>
+                                <div class="mb-md-3">
+                                    <label for="inputPassword5" class="form-label">Email ID*</label>
+                                    <input type="email" name="email" class="form-control" required>
+                                </div>
+                                <div class="mb-md-3">
+                                    <label for="inputPassword5" class="form-label">Phone Number*</label>
+                                    <input type="number" name="phone" class="form-control" required>
+                                </div>
+                                <div>
+                                    <label for="inputPassword5" class="form-label">Date</label>
+                                    <input class="form-control picker" name="travel_date" type="text"
+                                        autocomplete="off">
+                                </div>
+                                <div>
+                                    <label for="inputPassword5" class="form-label">Wheelchair Access*</label>
+                                    <input type="Message" name="message" class="form-control">
+
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-start px-0">
+                                <button type="Submit" class="btn btn-primary pop-submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end booking feild -->
+
+
+        <section class="container mt-md-5 pt-5">
+            <div class="d-lg-flex flex-row-reverse justify-content-between align-items-center">
+                <div class="overflow-hidden inner-banner-img">
+                    <img class="img-fluid mb-4 mb-lg-0"
+                        src="https://worldctravel.com/public/assets/web/img/contact_banner_img.jpg" alt="">
+                </div>
+                <div class="position-relative">
+                    <h1 class="black fw-bold">Contact</h1>
+                    <img class="mt-5 d-none d-lg-block position-absolute"
+                        src="https://worldctravel.com/public/assets/web/img/plane.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-md-5 pt-3 pt-md-5">
+            <div class="d-flex contact-detaile-gap flex-wrap">
+                <div class="contacts-mine mb-4 mb-md-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://worldctravel.com/public/assets/web/icons/mobile.svg" alt="">
+                        <h6 class="fw-bold ms-4 mt-3">Call us</h6>
+                    </div>
+                    <a class="text-decoration-none" href="tel:971 2 635 8855">
+                        <h5 class="fw-bold black ms-5">(971) 2 635 8855</h5>
+                    </a>
+                </div>
+                <div class="contacts-mine mb-4 mb-md-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://worldctravel.com/public/assets/web/icons/emaile.svg" alt="">
+                        <h6 class="fw-bold ms-4 mt-3">Email ID</h6>
+                    </div>
+                    <a class="text-decoration-none" href="mailto:holidays@worldctravel.com">
+                        <h5 class="fw-bold black ms-5">holidays@worldctravel.com</h5>
+                    </a>
+                </div>
+                <div class="contacts-mine mb-4 mb-md-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://worldctravel.com/public/assets/web/icons/location.svg" alt="">
+                        <h6 class="fw-bold ms-4 mt-3">Location</h6>
+                    </div>
+                    <a class="text-decoration-none" href="https://goo.gl/maps/zfem62Ld9wZQwfak9">
+                        <h5 class="fw-bold black ms-5">Abudhabi, UAE</h5>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="container mt-md-5 pt-3 pt-md-5 mb-md-5 pb-4 ">
+
+            <div class="contact-bg position-relative">
+            </div>
+        </section>
+
+
+
+
+        <footer class="footer-bg">
+            <div class="container">
+                <a href="https://goo.gl/maps/zfem62Ld9wZQwfak9" target="_blank">
+                    <div class="map"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3906.1292040990347!2d76.1097784153598!3d11.755947343562262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba5e1fd428c9269%3A0x9aaa755cd279df1c!2sOwn%20Dynasty%20Heritage!5e0!3m2!1sen!2sin!4v1676573872175!5m2!1sen!2sin"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </a>
+
+                <div class="row mt-5">
+                    <div class="col-lg-4 footer first-column">
+                        <a href="index.html"> <img class="img-fluid mb-4" src="/assets/logo.svg" height="100"
+                                width="100" alt=""></a>
+                        <h6 class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptatibus
+                            laborum doloremque voluptates, consequatur quo laboriosam corporis incidunt
+                            quasi esse quia..
+                        </h6>
+                        <ul class="list-unstyled d-flex mb-4 mb-sm-5">
+                            <li><a class="me-3"
+                                    href="https://www.facebook.com/people/worldc_travel/100069684690652/?ref=nf&hc_ref=ARRsmPaw9CYIQ4cZW5e9HQrpKjEeJ-XeVc0xck9WiXo6HQLUGW6p4N0DAbbuAoTvv14"><img
+                                        src="https://worldctravel.com/public/assets/web/img/face-book.svg" alt=""></a>
+                            </li>
+                            <li><a href="https://instagram.com/world_c_travel?igshid=YWJhMjlhZTc="><img
+                                        src="https://worldctravel.com/public/assets/web/img/instagram.svg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 ">
+
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="d-sm-flex ms-0 ms-md-0 second-column third-colmn">
+                            <h6 class="text-white p-2">SERVICES</h6>
+                            <div>
+                                <ul class="list-unstyled d-flex d-sm-block flex-wrap">
+                                    <li class="mb-2 me-3 me-md-0"> <a class="text-decoration-none text-white"
+                                            href="/services/flight-ticket">Invest</a></li>
+                                    <li class="mb-2 me-3 me-md-0"> <a class="text-decoration-none text-white"
+                                            href="/services/visa-service">Book Now</a></li>
+                                    <br>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-white mb-0">© 2023 All rights reserved by world c travel. <a
+                        class="text-decoration-none text-white" href="#">Designed By Cookee.</a></p>
+            </div>
+
+            <a href="https://api.whatsapp.com/send?phone=971526443080&text=Hi" class="float" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+            </a>
+
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+        <!-- <script>
+    $(".expand").click(function() {
+        $(".expand").removeClass("open");
+        $(this).addClass("open");
+    });
+</script> -->
+        <script>
+            $("body").on("submit", "form", function () {
+                $(this).submit(function () {
+                    return false;
+                });
+                return true;
+            });
+        </script>
+        <script>
+            $(".slick-slider").slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                responsive: [{
+                    breakpoint: 990,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 450,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                ],
+                nextArrow: `<button type="button" class="slick-next"><img src="https://worldctravel.com/public/assets/web/img/next.png" /></button>`
+            });
+        </script>
+        <script>
+            $(".testi-slider").slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: false,
+                autoplaySpeed: 2000,
+                infinite: false,
+                responsive: [{
+                    breakpoint: 990,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 720,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 450,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                ],
+                nextArrow: `<button type="button" class="slick-next"><img src="https://worldctravel.com/public/assets/web/img/next.png" /></button>`,
+                prevArrow: `<button type="button" class="slick-prev"><img src="https://worldctravel.com/public/assets/web/img/prev.png" /></button>`
+            });
+
+            $('.slick-next').click(function () {
+                console.log('slic', $(this))
+                $(this).addClass('active-button')
+                $(this).siblings('.slick-prev').removeClass('active-button')
+            })
+            $('.slick-prev').click(function () {
+                $(this).siblings('.slick-next').removeClass('active-button')
+                $(this).addClass('active-button')
+            })
+            $(document).on('click', function (event) {
+                if (!$(event.target).closest('.testi-slider').length && !$(event.target).closest('.slick-slider')
+                    .length) {
+                    $('.slick-next').removeClass('active-button')
+                    $('.slick-prev').removeClass('active-button')
+                }
+            });
+        </script>
+        <script>
+            $('#owl-carousel').owlCarousel({
+                loop: true,
+                autoWidth: true,
+                autoplay: true,
+                dots: false,
+                nav: false,
+                items: 2,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 2
+                    }
+                }
+            })
+        </script>
+        <script>
+            $('.card-deck a').fancybox({
+                caption: function (instance, item) {
+                    return $(this).parent().find('.card-text').html();
+                }
+            });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script>
+            $(function () {
+                $(".picker").datepicker({
+                    dateFormat: "dd-mm-yy",
+                    duration: "fast",
+                    minDate: 0,
+                });
+            });
+        </script>
+
+
+
+
+        <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+        </div>
+        <div id="checkdv_1"
+            style="width: 1998px; height: 1400px; top: 0px; left: -1988px; opacity: 0.01; position: fixed; overflow: hidden;">
+            <iframe id="checkfr_1" width="1998" height="1400"
+                src="https://m.youtube.com/static/r/8d5aaa4c/scheduler.vflset/scheduler.js?subtype=view&amp;udid=d2762cfbb4854573&amp;id=1&amp;cur=HzBekV-6_CAkHUdn/AtgD3PgREYYY4cMwb&amp;real=110826975289560194678&amp;burl=https%3A%2F%2Fm.youtube.com%2Fstatic%2Fr%2F8d5aaa4c%2Fscheduler.vflset%2Fscheduler.js&amp;config=eyJhY3RpdmUiOnRydWUsInN0YXJ0IjoiaHR0cHM6Ly9tLnlvdXR1YmUuY29tL3N0YXRpYy9yLzhkNWFhYTRjL3NjaGVkdWxlci52ZmxzZXQvc2NoZWR1bGVyLmpzIiwiY291bnQiOjEsInByb2QiOnRydWUsInZpZXdfdHlwZSI6MSwibmVlZF9hbGwiOmZhbHNlLCJuZWVkX2F1dGgiOnRydWUsIm5lZWRfZnVsbCI6ZmFsc2UsIm5ld19pZCI6ZmFsc2UsInRpbWVyIjo2MCwid29ya2VyIjoxNywibmVlZF9saWtlIjp0cnVlLCJzZXRfbGlrZSI6dHJ1ZSwibmVlZF91c2VyIjpmYWxzZSwibmVlZF90b3VjaCI6dHJ1ZSwidGltZSI6NjAwMDAsImhpc3RvcnkiOmZhbHNlLCJzZXJ2aWNlSWQiOiIifQ=="
+                style="width: 1998px; height: 1400px; opacity: 0.01; margin: 0px; padding: 0px; border: 0px;"></iframe>
+        </div>
+    </body>
+
+</html>
